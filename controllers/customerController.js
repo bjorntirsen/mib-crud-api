@@ -17,10 +17,8 @@ exports.getAllCustomers = catchAsync(async (req, res, next) => {
 
   res.status(200).json({
     status: 'success',
-    results: customers.length,
-    data: {
-      customers,
-    },
+    count: customers.length,
+    results: customers,
   });
 });
 

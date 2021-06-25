@@ -1,7 +1,7 @@
 const Customer = require('../models/customerModel');
-const APIFeatures = require('../utils/testapiFeatures');
+const APIFeatures = require('../utils/apiFeatures');
 const catchAsync = require('../utils/catchAsync');
-const AppError = require('../utils/testappError');
+const AppError = require('../utils/appError');
 
 //Customer.find Returns promise. Can also use .then here,
 //but i'm using async await.

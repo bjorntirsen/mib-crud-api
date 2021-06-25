@@ -7,7 +7,7 @@ const xss = require('xss-clean');
 const hpp = require('hpp');
 const compression = require('compression');
 
-const AppError = require('./utils/testappError');
+const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorController');
 const customerRouter = require('./routes/customerRoutes');
 const userRouter = require('./routes/userRoutes');
